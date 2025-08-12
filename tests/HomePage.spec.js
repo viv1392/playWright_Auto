@@ -12,10 +12,10 @@ test("Home Page Test", async ({ page }) => {
     const currentUrl = page.url();
     console.log(`Current URL is: ${currentUrl}`);
     await expect(page).toHaveURL('https://demoblaze.com/');
-    page.close();
+    await page.close();
 
    // Some command to run tests
-   
+
   // npx playwright test    ==> runs all the test in headles mode
   //npx playwright test HomePage.spec.js    ==> runs only the HomePage.spec.js test file
   //npx playwright test HomePage.spec.js --headed    ==> runs the HomePage.spec in headed mode
