@@ -23,7 +23,6 @@ const childFrame= await iFrame3.childFrames();
 await childFrame[0].check('//*[@id="i6"]/div[3]/div'); // Fill the input field in the frame
 
 
-
     await page.waitForTimeout(3000);
     
     await page.close(); // Close the page after the test
