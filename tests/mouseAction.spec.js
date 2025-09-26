@@ -7,7 +7,7 @@ test.skip("Mouse hover", async ({ page }) => {
 
     await electronicsMenu.hover(); // Hover over the Electronics menu
     await page.waitForTimeout(1000); // Wait for the hover effect to take place
-    await cellPhonesMenu.hover; // Click on the Cell Phones submenu
+    await cellPhonesMenu.hover(); // Click on the Cell Phones submenu
 
     
     
